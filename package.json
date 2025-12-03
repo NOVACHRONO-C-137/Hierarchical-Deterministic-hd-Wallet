@@ -9,13 +9,13 @@
     "server"
   ],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "cd Wallet && npm run dev",
+    "build": "cd Wallet && npm run build",
+    "preview": "cd Wallet && npm run preview",
     "install:all": "npm install && npm run install:workspaces",
     "install:workspaces": "npm install --workspaces",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d Wallet/dist"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
