@@ -3,8 +3,8 @@
 A simple and interactive React-based application that demonstrates how **HD (Hierarchical Deterministic) wallets** work.  
 It shows how a single **BIP39 seed phrase** can generate multiple deterministic wallets using standard derivation paths.
 
-👉 **Live Demo:** *(Add your deployed link here)*  
-Example: `https://your-demo-url.vercel.app/`
+👉 **LIVE DEMO OF APP** *(https://novachrono-c-137.github.io/Hierarchical-Deterministic-hd-Wallet/)*  
+
 
 ---
 
