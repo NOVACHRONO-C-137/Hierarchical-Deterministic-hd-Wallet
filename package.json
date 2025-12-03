@@ -8,15 +8,15 @@
     "Wallet",
     "server"
   ],
-  "scripts": {
-    "dev": "cd Wallet && npm run dev",
-    "build": "cd Wallet && npm run build",
-    "preview": "cd Wallet && npm run preview",
-    "install:all": "npm install && npm run install:workspaces",
-    "install:workspaces": "npm install --workspaces",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d Wallet/dist"
-  },
+"scripts": {
+  "dev": "cd Wallet && npm run dev",
+  "build": "cd Wallet && npm run build",
+  "preview": "cd Wallet && npm run preview",
+  "install:all": "npm install && npm run install:workspaces",
+  "install:workspaces": "npm install --workspaces",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d Wallet/dist"
+},
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
